@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(184, 177, 177);
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+  border: 3px solid rgb(134, 130, 130);
+  width: 90%;
+}
+
+.form-container,
+.transaction-list {
+  width: 40%;
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.473);
+}
+
+.form-container {
+  background-color: #2b6ea3;
+  color: white;
+}
+
+.form-container label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.category-type-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-type-container input {
+  flex: 1;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.radio-group input {
+  width: auto;
+}
+/*submit button ni */
+button {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #429b5c;
+}
+
+.transaction-list {
+  background-color: #d1b38e;
+  max-width: 100%;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
